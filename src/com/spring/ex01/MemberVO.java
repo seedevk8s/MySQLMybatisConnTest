@@ -5,17 +5,27 @@ public class MemberVO {
 	private String MNAME;
 	private String EMAIL;
 	private String CRE_DATE;
+	private String PWD;
 	
 	public MemberVO() {
 		super();
 	}
 
-	public MemberVO(String mNO, String mNAME, String eMAIL, String cRE_DATE) {
+	public MemberVO(String mNO, String mNAME, String eMAIL, String cRE_DATE, String pWD) {
 		super();
 		MNO = mNO;
 		MNAME = mNAME;
 		EMAIL = eMAIL;
 		CRE_DATE = cRE_DATE;
+		PWD = pWD;
+	}
+
+	public String getPWD() {
+		return PWD;
+	}
+
+	public void setPWD(String pWD) {
+		PWD = pWD;
 	}
 
 	public String getMNO() {

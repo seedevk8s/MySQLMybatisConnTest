@@ -20,6 +20,7 @@
       <td ><b>MNO</b></td>
       <td><b>MNAME</b></td>
       <td><b>EMAIL</b></td>
+      <td><b>PWD</b></td>
       <td><b>CRE_DATE</b></td>
    </tr>
    
@@ -28,6 +29,7 @@
       <td>${member.MNO}</td>
       <td>${member.MNAME}</td>
       <td>${member.EMAIL}</td>
+      <td>${member.PWD}</td>
       <td>${member.CRE_DATE}</td>
       
     </tr>
